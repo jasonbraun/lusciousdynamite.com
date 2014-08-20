@@ -16,40 +16,101 @@
     <!-- build:js js/vendor/modernizr.min.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
+<div class="row">
+
+  <div class="large-12 columns">
+    <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Luscious Dynamite</h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>  
+
+    <section class="top-bar-section">
+
+    <ul class="right">
+      <li class="has-dropdown">
+        <a href="#">Portfolio</a>
+        <ul class="dropdown">
+          <li><a href="#">Illustration</a></li>
+          <li><a href="#">Licensed Characters</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Packaging</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Promotional</a></li>
+    </ul>
+
+      </li>
+      <li><a href="#">Fine Art</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact Me</a></li>      
+    </ul>
+
+    </section>
+    </nav>
+  </div>
+
+</div>
+
     <div class="row">
-      <div class="small-12 small-centered medium-10 medium-centered large-8 large-centered columns panel radius">
-        <h1>Yo Foundation 5!</h1>
-        <ul>
-          <li>Sass compiling (Ruby or Node/Libsass)</li>
-          <li>Jade templating engine (option)</li>
-          <li>Publishing to dist directory</li>
-          <li>Server with LiveReload</li>
-          <li>JSHint</li>
-          <li>Grunt Bower install</li>
-          <li>Imagemin</li>
-          <li>Font Awesome (option)</li>
-        </ul>
-        <h1>Grunt tasks:</h1>
-        <ul>
-          <li>'grunt' - watching (Sass, Server on 127.0.0.1:9000 with LiveReload)</li>
-          <li>'grunt compile-sass' - Sass</li>
-          <li>'grunt compile-jade' - Jade</li>
-          <li>'grunt validate-js' - JSHint</li>
-          <li>'grunt bower-install' - injecting bower libraries</li>
-          <li>'grunt publish' - dist directory</li>
-          <li>'grunt server-dist' - server on 127.0.0.1:9001 - dist directory (preview only)</li>
-        </ul>
-        <h2 class="text-right">
-          <a href="https://github.com/juliancwirko/generator-zf5"><i class="fa fa-github"></i></a>
-        </h2>
-      </div>
+      <ul class="example-orbit" data-orbit>
+        <li>
+          <img src="images/main_banner.png" alt="Luscious Dynamite" />
+          <div class="orbit-caption">
+            Welcome!
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/1000/450/city/1" alt="Luscious Dynamite" />
+          <div class="orbit-caption">
+            Caption Two.
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/1000/450/city/3" alt="Luscious Dynamite" />
+          <div class="orbit-caption">
+            Caption Three.
+          </div>
+        </li>
+      </ul>
     </div>
+
+          <div class="row">    
+            <div class="large-4 medium-4 columns">
+              <p><a href="#">My Instagram Feed</a></p>
+              <p>This will be filled up from my Instagram feed.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="#">My Latest Show</a></p>
+              <p>This is some text about my last gallery show. This section will show a photo of the latest blog post.</p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="#">My Newest Creations</a></p>
+              <p>Here are some of my latest designs. I will talk about them here and feature a photo.</p>
+            </div>                
+          </div>
+
+<div id="footer">
+  <div class="row">    
+    <a href="#" class="large-4 medium-4 columns">Here's a link</a>
+    <a href="#" class="large-4 medium-4 columns">Here's a link</a>
+    <a href="#" class="large-4 medium-4 columns">Here's a link</a>
+  </div>
+</div>
 
     <!-- build:js js/vendor/libraries.min.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/fastclick/lib/fastclick.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js js/vendor/foundation.min.js -->
