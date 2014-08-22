@@ -1,16 +1,16 @@
 {
-  "name": "zf5_project",
-  "description": "",
-  "version": "0.0.1",
-  "description": "",
-  "homepage": "",
+  "name": "lusciousdynamite.com",
+  "description": "Website of Valarie Bermudez - Designer and Illustrator",
+  "version": "1.0.0",
+  "description": "Initial Release",
+  "homepage": "lusciousdynamite.com",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Jason Braun",
+    "email": "jasonbraun@me.com"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jasonbraun/lusciousdynamite.com"
   },
   "devDependencies": {
     "load-grunt-tasks": "~0.6.0",

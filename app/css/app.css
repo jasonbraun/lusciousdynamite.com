@@ -6409,8 +6409,8 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #c959a2;
-  background: #272727;
-  color: white;
+  background: white;
+  color: #c959a2;
 }
 .top-bar-section ul li.active > a {
   background: #c959a2;
@@ -6566,8 +6566,8 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li.hover > a:not(.button) {
     background-color: #c959a2;
-    background: #272727;
-    color: white;
+    background: white;
+    color: #c959a2;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 33.33333px;
@@ -6576,7 +6576,7 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #c959a2;
-    background: #272727;
+    background: white;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 33.33333px;
@@ -6648,9 +6648,9 @@ meta.foundation-mq-topbar {
     background: white;
   }
   .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
-    color: white;
+    color: #c959a2;
     background-color: #c959a2;
-    background: #272727;
+    background: white;
   }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
@@ -6690,8 +6690,8 @@ meta.foundation-mq-topbar {
 
   .no-js .top-bar-section ul li:hover > a {
     background-color: #c959a2;
-    background: #272727;
-    color: white;
+    background: white;
+    color: #c959a2;
   }
   .no-js .top-bar-section ul li:active > a {
     background: #c959a2;
