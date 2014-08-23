@@ -6044,13 +6044,13 @@ blockquote p {
 
 /* Tooltips */
 .has-tip {
-  border-bottom: dotted 1px #cccccc;
+  border-bottom: none;
   cursor: help;
   font-weight: bold;
   color: #333333;
 }
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #62204b;
+  border-bottom: none;
   color: #c959a2;
 }
 .has-tip.tip-left, .has-tip.tip-right {
@@ -6096,7 +6096,7 @@ blockquote p {
 }
 .tooltip.opened {
   color: #c959a2 !important;
-  border-bottom: dotted 1px #62204b !important;
+  border-bottom: none !important;
 }
 
 .tap-to-close {
@@ -7430,4 +7430,38 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* all app scss styles here */
+html, body {
+  height: 100%;
+}
+
+.container {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -300px;
+}
+.container .root-footer {
+  height: 300px;
+}
+
+.main-footer {
+  clear: both;
+  position: relative;
+  height: 300px;
+}
+
+.main-footer {
+  background: #c959a2;
+  padding: 25px 0;
+  margin: 25px 0 0 0;
+}
+.main-footer a {
+  color: #fff;
+}
+.main-footer a:hover {
+  color: #333;
+}
+.main-footer h5 {
+  color: #fff;
+}

@@ -1,1 +1,20 @@
-/* all app scss styles here */
+//
+// JASON'S CUSTOM CSS SETTINGS
+//
+
+@include sticky-footer(300px, ".container", ".root-footer", ".main-footer");
+
+.main-footer {
+	background: $primary-color;
+    padding: 25px 0;
+    margin: 25px 0 0 0;
+    a {
+        color: #fff;
+        &:hover {
+            color: #333;
+        }
+    }
+    h5 {
+        color: #fff;
+    }
+}
